@@ -192,7 +192,7 @@ inoremap <a-y>{ <ESC>yi{
 inoremap <a-y>[ <ESC>yi[
 inoremap <a-y>( <ESC>yi(
 inoremap <a-p> <ESC>pa
-inoremap <a-g> <ESC>"+pa
+inoremap <a-v> <ESC>"+pa
 inoremap <a-u> <ESC>ua
 inoremap <a-r> <ESC><c-r>a
 inoremap <a-l> <ESC>wa
