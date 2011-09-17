@@ -1,11 +1,3 @@
 let g:netrw_dirhistmax  =10
-let g:netrw_dirhist_cnt =9
-let g:netrw_dirhist_1='/home/cage/.gvfs/192.168.188.2 上的 liufeng/www/phpcms/phpcms/templates/test/content'
-let g:netrw_dirhist_2='/home/cage/python'
-let g:netrw_dirhist_3='/home/cage/.gvfs/192.168.188.2 上的 liufeng/www/caijing/htdocs/static/admin'
-let g:netrw_dirhist_4='/home/cage/.gvfs/192.168.188.2 上的 liufeng/www/caijing/htdocs/static'
-let g:netrw_dirhist_5='/home/cage/.gvfs/192.168.188.2 上的 liufeng/www/caijing/htdocs'
-let g:netrw_dirhist_6='/home/cage/.gvfs/192.168.188.2 上的 liufeng/www/caijing'
-let g:netrw_dirhist_7='/home/cage/.gvfs/192.168.188.2 上的 liufeng/www/caijing/tpls'
-let g:netrw_dirhist_8='/home/cage/.gvfs/192.168.188.2 上的 liufeng/www/caijing/tpls/client'
-let g:netrw_dirhist_9='/home/cage/.gvfs/192.168.188.2 上的 liufeng/www/caijing/tpls/client/yuanchang'
+let g:netrw_dirhist_cnt =1
+let g:netrw_dirhist_1='/var/www/shark/templates'
