@@ -216,7 +216,6 @@ vmap <A-y> "+y
 vmap <A-p> "+p
 
 " 让 Tohtml 产生有 CSS 语法的 html
-" syntax/2html.vim，可以用:runtime! syntax/2html.vim
 let html_use_css=1
 
 " 设置字典 ~/.vim/dict/文件的路径
@@ -234,6 +233,12 @@ au BufRead,BufNewFile *.js set filetype=javascript syntax=jquery
 
 "命令行高度
 set cmdheight=1
+
+"窗口最大化
+"autocmd GUIEnter * winpos 0 0 | set lines=999 columns=9999
+
+"设置标尺
+set ruler
 
 "隐藏垂直方向滚动条"
 if has("gui_running")
