@@ -9,6 +9,7 @@ source $VIMRUNTIME/menu.vim
 "处理consle输出乱码 
 language messages zh_CN.utf-8
 
+"设置不明字符宽度
 set ambiwidth=double
 
 "禁用vi兼容模式
@@ -210,6 +211,18 @@ nmap <a-d> <c-w>l
 nmap <a-s> <c-w>j
 nmap <a-a> <c-w>h
 nmap <a-x> <c-w>>1000
+
+"映射正常模式下跳到行为和行首的快捷键
+nmap <a-q> ^
+nmap <a-e> $
+nmap <a-n> I
+nmap <a-m> A
+
+"映射ct快捷键
+nmap <a-c> ct
+
+"去除底部白边
+nmap <a-9> :set lines+=1<cr>
 
 "映射系统剪贴板的复制和粘贴
 vmap <A-y> "+y
