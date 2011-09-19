@@ -197,13 +197,13 @@ set statusline=\ %<%F[%1*%M%*%n%R%H]%=\ %y\ %0(%{&fileformat}\ %{&encoding}\ %c:
 "映射长行上下移动快捷键
 nmap j gj
 nmap k gk
+nmap <a-p> "+p
 
 "改变窗口大小快捷键
 nmap <a-k> <C-w>+10
 nmap <a-j> <C-w>-10
 nmap <a-h> <C-w>>10
 nmap <a-l> <C-w><10
-nmap <a-p> "+p
 
 "正常模式下切换窗口快捷键
 nmap <a-w> <c-w>k
@@ -220,6 +220,13 @@ nmap <a-m> A
 
 "映射ct快捷键
 nmap <a-c> ct
+
+"注释快捷键
+nmap <a-x> \cc
+nmap <a-r> \cu
+vmap <a-r> \cu
+vmap <a-v> \cs
+vmap <a-b> \cm
 
 "去除底部白边
 nmap <a-9> :set lines+=1<cr>
