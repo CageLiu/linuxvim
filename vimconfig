@@ -210,7 +210,7 @@ nmap <a-w> <c-w>k
 nmap <a-d> <c-w>l
 nmap <a-s> <c-w>j
 nmap <a-a> <c-w>h
-nmap <a-x> <c-w>>1000
+nmap <a-\> <c-w>>1000
 
 "映射正常模式下跳到行为和行首的快捷键
 nmap <a-q> I
@@ -227,6 +227,10 @@ nmap <a-r> \cu
 vmap <a-r> \cu
 vmap <a-v> \cs
 vmap <a-b> \cm
+vmap <a-n> ^
+vmap <a-m> $
+vmap <a-q> I
+vmap <a-e> A
 
 "去除底部白边
 nmap <a-9> :set lines+=1<cr>
