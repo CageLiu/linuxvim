@@ -213,10 +213,10 @@ nmap <a-a> <c-w>h
 nmap <a-x> <c-w>>1000
 
 "映射正常模式下跳到行为和行首的快捷键
-nmap <a-q> ^
-nmap <a-e> $
-nmap <a-n> I
-nmap <a-m> A
+nmap <a-q> I
+nmap <a-e> A
+nmap <a-n> ^
+nmap <a-m> $
 
 "映射ct快捷键
 nmap <a-c> ct
