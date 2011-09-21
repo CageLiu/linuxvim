@@ -74,7 +74,7 @@ hi PreCondit       guifg=#A6E22E               gui=none
 hi PreProc         guifg=#A6E22E
 hi Question        guifg=#66D9EF
 hi Repeat          guifg=#F92672               gui=none
-hi Search          guifg=#FFFFFF guibg=#455354
+hi Search          guifg=#FFFFFF guibg=#FF0000
 " marks column
 hi SignColumn      guifg=#A6E22E guibg=#232526
 hi SpecialChar     guifg=#F92672               gui=none
@@ -114,7 +114,7 @@ if s:molokai_original == 1
    hi LineNr          guifg=#BCBCBC guibg=#3B3A32
    hi NonText         guifg=#BCBCBC guibg=#3B3A32
 else
-   hi Normal          guifg=#F8F8F2 guibg=#111111
+   hi Normal          guifg=#D3D6DF guibg=#111111
    hi Comment         guifg=#465457
    hi CursorLine                    guibg=#293739
    hi CursorColumn                  guibg=#293739
