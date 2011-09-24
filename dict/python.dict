@@ -93719,3 +93719,11 @@ formatter.get_bool_opt(
 formatter.get_style_by_name(
 
 --- from pygments.formatter import * ---
+
+loader
+get_template
+django
+Template
+Context
+shortcuts
+render_to_response
