@@ -217,6 +217,7 @@ nmap <a-q> I
 nmap <a-e> A
 nmap <a-n> ^
 nmap <a-m> $
+nmap <a-m> zR
 
 "映射ct快捷键
 nmap <a-c> ct
