@@ -221,6 +221,8 @@ nmap <a-m> zR
 
 "映射ct快捷键
 nmap <a-c> ct
+nmap <a-y> "+
+nmap <tab> <c-tab>
 
 "注释快捷键
 nmap <a-x> \cc
@@ -232,9 +234,6 @@ vmap <a-n> ^
 vmap <a-m> $
 vmap <a-q> I
 vmap <a-e> A
-
-"去除底部白边
-nmap <a-9> :set lines+=1<cr>
 
 "映射系统剪贴板的复制和粘贴
 vmap <A-y> "+y
