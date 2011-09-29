@@ -220,13 +220,13 @@ nmap <a-m> $
 nmap <a-m> zR
 
 "映射ct快捷键
-nmap <a-c> ct
+nmap <a-x> ct
 nmap <a-y> "+
 nmap <a-v> V
 nmap <tab> <c-tab>
 
 "注释快捷键
-nmap <a-x> \cc
+nmap <a-c> \cc
 nmap <a-r> \cu
 vmap <a-r> \cu
 vmap <a-v> \cs
