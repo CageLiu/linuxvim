@@ -223,6 +223,7 @@ nmap <a-m> zR
 nmap <a-x> ct
 nmap <a-y> "+
 nmap <a-v> V
+nmap <a-g> G
 nmap <tab> <c-tab>
 
 "注释快捷键
