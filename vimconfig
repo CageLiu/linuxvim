@@ -222,6 +222,7 @@ nmap <a-m> zR
 "映射ct快捷键
 nmap <a-c> ct
 nmap <a-y> "+
+nmap <a-v> V
 nmap <tab> <c-tab>
 
 "注释快捷键
