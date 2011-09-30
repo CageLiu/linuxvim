@@ -225,6 +225,11 @@ nmap <a-x> ct
 nmap <a-y> "+
 nmap <a-v> V
 nmap <a-g> G
+nmap d<a-g> dG
+nmap d<a-n> d^
+nmap d<a-m> d$
+nmap d<a--> df
+nmap d<a-b> dF
 nmap <a-8> *
 nmap <a-5> %
 nmap <a-t> V\5
@@ -239,6 +244,9 @@ vmap <a-v> \cs
 vmap <a-b> \cm
 vmap <a-n> ^
 vmap <a-m> $
+vmap <a-g> G
+
+"块级插入时有用
 vmap <a-q> I
 vmap <a-e> A
 
