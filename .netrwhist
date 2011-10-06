@@ -1,11 +1,7 @@
 let g:netrw_dirhistmax  =10
-let g:netrw_dirhist_cnt =9
-let g:netrw_dirhist_1='/var/www/django_test/news/templates'
-let g:netrw_dirhist_2='/var/www/django_test/news'
-let g:netrw_dirhist_3='/var/www/django_test/news/templates'
-let g:netrw_dirhist_4='/home/cage/.vim'
-let g:netrw_dirhist_5='/home/cage'
-let g:netrw_dirhist_6='/home/cage/.vim'
-let g:netrw_dirhist_7='/home/cage'
-let g:netrw_dirhist_8='/home/cage/.vim'
-let g:netrw_dirhist_9='/home/cage'
+let g:netrw_dirhist_cnt =5
+let g:netrw_dirhist_1='/var/www/blog'
+let g:netrw_dirhist_2='/var/www/django_test'
+let g:netrw_dirhist_3='/var/www/django_test/news'
+let g:netrw_dirhist_4='/var/www/django_test/news/books'
+let g:netrw_dirhist_5='/var/www/django_test/news'

@@ -240,7 +240,7 @@ nmap <tab> <c-tab>
 nmap <a-c> \cc
 nmap <a-r> \cu
 vmap <a-r> \cu
-vmap <a-v> \cs
+vmap <a-c> \cs
 vmap <a-b> \cm
 vmap <a-n> ^
 vmap <a-m> $
