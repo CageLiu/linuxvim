@@ -252,8 +252,8 @@ vmap <a-q> I
 vmap <a-e> A
 
 "映射系统剪贴板的复制和粘贴
-vmap <A-y> "+y
-vmap <A-p> "+p
+vmap <a-y> "+y
+vmap <a-p> "+p
 
 " 让 Tohtml 产生有 CSS 语法的 html
 let html_use_css=1
