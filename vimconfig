@@ -180,6 +180,7 @@ inoremap <a-n> <ESC>ld^i
 inoremap <c-k> <C-X><C-K>
 inoremap <c-f> <C-X><C-F>
 inoremap <a-i> <c-y>
+inoremap <a-x> <c-w>
 
 "实现括号的自动配对后防止重复输入），适用python
 function! ClosePair(char)
