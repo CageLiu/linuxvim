@@ -232,6 +232,7 @@ nmap d<a-n> d^
 nmap d<a-m> d$
 nmap d<a--> df
 nmap d<a-b> dF
+nmap d<a-z> F
 nmap <a-8> *
 nmap <a-5> %
 nmap <a-t> V\5
