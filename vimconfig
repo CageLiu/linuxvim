@@ -248,6 +248,7 @@ vmap <a-b> \cm
 vmap <a-n> ^
 vmap <a-m> $
 vmap <a-g> G
+vmap <a-o> \5
 
 "块级插入时有用
 vmap <a-q> I
