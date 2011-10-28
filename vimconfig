@@ -220,7 +220,11 @@ nmap <a-q> I
 nmap <a-e> A
 nmap <a-n> ^
 nmap <a-m> $
-nmap <a-.> zR
+nmap <a-i> zR
+
+"重复find操作
+nmap , ;
+vmap , ;
 
 "映射ct快捷键
 nmap <a-x> ct
@@ -253,6 +257,10 @@ vmap <a-o> \5
 "块级插入时有用
 vmap <a-q> I
 vmap <a-e> A
+
+"选中状态下单行移动
+vmap j gj
+vmap k gk
 
 "映射系统剪贴板的复制和粘贴
 vmap <a-y> "+y
