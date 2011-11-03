@@ -52,6 +52,8 @@ set cursorline
 
 "tab宽度为四个字符
 set tabstop=4
+
+"用空格代替回车
 set expandtab
 
 "开启新行时自动智能缩进
