@@ -6,6 +6,7 @@ set fileencodings=ucs-bom,utf-8,cp936,big5,euc-jp,euc-kr,latin1
 "处理菜单及右键菜单乱码 
 source $VIMRUNTIME/delmenu.vim 
 source $VIMRUNTIME/menu.vim 
+
 "处理consle输出乱码 
 language messages zh_CN.utf-8
 
@@ -53,8 +54,8 @@ set cursorline
 "tab宽度为四个字符
 set tabstop=4
 
-"用空格代替回车
-set expandtab
+"python时自动将tab缩进转换为空格
+au BufRead,BufNewFile *.py set filetype=python expandtab
 
 "开启新行时自动智能缩进
 set smartindent
@@ -236,14 +237,14 @@ nmap <a-g> G
 nmap d<a-g> dG
 nmap d<a-n> d^
 nmap d<a-m> d$
-nmap d<a--> df
-nmap d<a-b> dF
-nmap d<a-f> F
+nmap <a--> df
+nmap <a-b> dF
+nmap <a-f> F
 nmap <a-8> *
 nmap <a-5> %
 nmap <a-t> V\5
 nmap <a-o> \5
-nmap <tab> <c-tab>
+nmap <tab> <s-c-tab>
 
 "注释快捷键
 nmap <a-c> \cc
