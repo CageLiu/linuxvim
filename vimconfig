@@ -225,10 +225,6 @@ nmap <a-n> ^
 nmap <a-m> $
 nmap <a-i> zR
 
-"重复find操作
-nmap , ;
-vmap , ;
-
 "映射ct快捷键
 nmap <a-x> <c-v>
 nmap <a-y> "+
@@ -246,6 +242,10 @@ nmap <a-t> V\5
 nmap <a-o> \5
 nmap <tab> <s-c-tab>
 
+"重复find操作
+nmap , ;
+vmap , ;
+
 "注释快捷键
 nmap <a-c> \cc
 nmap <a-r> \cu
@@ -260,6 +260,7 @@ vmap <a-o> \5
 "块级插入时有用
 vmap <a-q> I
 vmap <a-e> A
+vmap <a-f> F
 
 "选中状态下单行移动
 vmap j gj
