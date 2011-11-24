@@ -224,6 +224,7 @@ nmap <a-e> A
 nmap <a-n> ^
 nmap <a-m> $
 nmap <a-i> zR
+nmap <a-[> %
 
 "映射ct快捷键
 nmap <a-x> <c-v>
