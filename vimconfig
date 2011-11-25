@@ -218,7 +218,6 @@ nmap <a-e> A
 nmap <a-n> ^
 nmap <a-m> $
 nmap <a-i> zR
-nmap <a-[> %
 nmap <a-,> ysiw
 nmap <a-x> <c-v>
 nmap <a-y> "+
@@ -255,6 +254,7 @@ vmap <a-o> \5
 vmap <a-q> I
 vmap <a-e> A
 vmap <a-f> F
+vmap <a-5> %
 
 "选中状态下单行移动
 vmap j gj
