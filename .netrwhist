@@ -1,5 +1,5 @@
 let g:netrw_dirhistmax  =10
-let g:netrw_dirhist_cnt =7
+let g:netrw_dirhist_cnt =8
 let g:netrw_dirhist_1='/home/cage/.vim'
 let g:netrw_dirhist_2='/home/cage'
 let g:netrw_dirhist_3='/var/www'
@@ -7,3 +7,4 @@ let g:netrw_dirhist_4='/var/www/wfg'
 let g:netrw_dirhist_5='/home/cage/data/PSD'
 let g:netrw_dirhist_6='/home/cage/data/PSD/SNS'
 let g:netrw_dirhist_7='/var/www/django_test/two'
+let g:netrw_dirhist_8='/home/cage/data/note/python'
