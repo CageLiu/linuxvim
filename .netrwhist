@@ -1,5 +1,5 @@
 let g:netrw_dirhistmax  =10
-let g:netrw_dirhist_cnt =7
+let g:netrw_dirhist_cnt =8
 let g:netrw_dirhist_1='/var/www'
 let g:netrw_dirhist_2='/var/www/webally'
 let g:netrw_dirhist_3='/var/www/webally/js'
@@ -7,3 +7,4 @@ let g:netrw_dirhist_4='/home/cage/.gvfs/192.168.188.2 上的 htmls/caijing/htdoc
 let g:netrw_dirhist_5='/home/cage/.gvfs/192.168.188.2 上的 htmls/caijing/htdocs/static/nantong/js'
 let g:netrw_dirhist_6='/var/www/yydc'
 let g:netrw_dirhist_7='/var/www/yydc/js'
+let g:netrw_dirhist_8='/'
