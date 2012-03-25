@@ -21,7 +21,8 @@ autocmd! bufwritepost _vimrc source %
 
 "配色方案
 color molokai
-set guifont=DejaVu\ Sans\ Mono
+"set guifont=DejaVu\ Sans\ Mono\ 10
+set guifont=Liberation\ Mono\ 10
 
 "默认区分大小写
 set noignorecase
@@ -263,6 +264,20 @@ vmap k gk
 "映射系统剪贴板的复制和粘贴
 vmap <a-y> "+y
 vmap <a-p> "+p
+
+"快速格式化缩进
+nmap //= :Tab /=<cr>
+nmap //: :Tab /:<cr>
+nmap //\| :Tab /\|<cr>
+nmap //, :Tab /,<cr>
+nmap //+ :Tab /+<cr>
+nmap //- :Tab /-<cr>
+vmap //= :Tab /=<cr>
+vmap //: :Tab /:<cr>
+vmap //\| :Tab /\|<cr>
+vmap //, :Tab /,<cr>
+vmap //+ :Tab /+<cr>
+vmap //- :Tab /-<cr>
 
 " 让 Tohtml 产生有 CSS 语法的 html
 let html_use_css=1
