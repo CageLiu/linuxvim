@@ -22,7 +22,7 @@ autocmd! bufwritepost _vimrc source %
 "配色方案
 color molokai
 "set guifont=DejaVu\ Sans\ Mono\ 10
-set guifont=Liberation\ Mono\ 10
+set guifont=文泉驿等宽正黑\ 11
 
 "默认区分大小写
 set noignorecase
@@ -198,9 +198,6 @@ endf
 "显示状态栏
 set laststatus=2
 
-"状态栏显示的信息
-set statusline=\ %<%F[%1*%M%*%n%R%H]%=\ %y\ %0(%{&fileformat}\ %{&encoding}\ %c:%l/%L%)\
-
 "normal模式下的快捷键
 nmap j gj
 nmap k gk
@@ -339,3 +336,25 @@ function! InsertHtmlTag()
         :call cursor(save_cursor[1], save_cursor[2], save_cursor[3])
 endfunction
 		inoremap > <ESC>:call InsertHtmlTag()<CR>a
+
+
+"全屏快捷键
+let g:fullscreen = 0
+function! ToggleFullscreen()
+    if g:fullscreen == 1
+        let g:fullscreen = 0
+        let mod = "remove"
+    else
+        let g:fullscreen = 1
+        let mod = "add"
+    endif
+    call system("wmctrl -ir " . v:windowid . " -b " . mod . ",fullscreen")
+endfunction
+
+map <silent> <F11> :call ToggleFullscreen()<CR>
+
+
+"状态栏显示的信息
+set statusline=\ %<%F[%1*%M%*%n%R%H]%=\ %y\ %0(%{&fileformat}\ %{&encoding}\ %c:%l/%L%)\
+
+"let g:Powerline_symbols = 'fancy'
