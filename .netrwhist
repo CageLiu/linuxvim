@@ -1,10 +1,7 @@
 let g:netrw_dirhistmax  =10
-let g:netrw_dirhist_cnt =8
-let g:netrw_dirhist_1='/home/cage'
-let g:netrw_dirhist_2='/home/cage/Desktop'
-let g:netrw_dirhist_3='/home/cage/Desktop/simpleui'
-let g:netrw_dirhist_4='/home/cage/Desktop/simpleui/simpleUI'
-let g:netrw_dirhist_5='/home/cage/Desktop/simpleui/simpleUI/src'
-let g:netrw_dirhist_6='/var/www/demo'
-let g:netrw_dirhist_7='/var/www'
-let g:netrw_dirhist_8='/var/www/js'
+let g:netrw_dirhist_cnt =5
+let g:netrw_dirhist_1='/home/cage/.vim'
+let g:netrw_dirhist_2='/home/cage/.vim/autoload'
+let g:netrw_dirhist_3='/home/cage/.vim/autoload/zencoding'
+let g:netrw_dirhist_4='/home/cage/.vim/autoload/zencoding/lang'
+let g:netrw_dirhist_5='/home/cage/data/note/css'

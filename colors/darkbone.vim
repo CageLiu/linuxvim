@@ -15,7 +15,7 @@ hi Normal	guifg=#a0a0c0 guibg=#000000
 hi NonText	guifg=#606080 guibg=#101020 gui=none
 hi SpecialKey	guifg=#404060
 hi Cursor	guifg=#000000 guibg=#a0a0c0
-hi CursorLine	guibg=#303050
+hi CursorLine	guibg=#151515
 hi lCursor	guifg=#000000 guibg=#a0a0c0
 hi CursorIM	guifg=#000000 guibg=#a0a0c0
 
