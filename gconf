@@ -382,3 +382,11 @@ set statusline=\ %<%F[%1*%M%*%n%R%H]%=\ %y\ %0(%{&fileformat}\ %{&encoding}\ %c:
 nmap <F1> <ESC>
 vmap <F1> <ESC>
 inoremap <F1> <ESC>
+
+
+set list
+set listchars=tab:\|\ 
+
+
+"高亮当前列
+set cuc

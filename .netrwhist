@@ -1,7 +1,3 @@
 let g:netrw_dirhistmax  =10
-let g:netrw_dirhist_cnt =5
-let g:netrw_dirhist_1='/home/cage/.vim'
-let g:netrw_dirhist_2='/home/cage/.vim/autoload'
-let g:netrw_dirhist_3='/home/cage/.vim/autoload/zencoding'
-let g:netrw_dirhist_4='/home/cage/.vim/autoload/zencoding/lang'
-let g:netrw_dirhist_5='/home/cage/data/note/css'
+let g:netrw_dirhist_cnt =1
+let g:netrw_dirhist_1='/var/www/tpl/static/youmo/js'
