@@ -384,8 +384,8 @@ vmap <F1> <ESC>
 inoremap <F1> <ESC>
 
 
-set list
-set listchars=tab:\|\ 
+"set list
+"set listchars=tab:\|\ 
 
 
 "高亮当前列
