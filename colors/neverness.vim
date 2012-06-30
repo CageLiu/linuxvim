@@ -28,13 +28,13 @@ hi Identifier     ctermfg=LightCyan ctermbg=black  guifg=#63b8ff guibg=#000000 g
 hi Function       ctermfg=LightCyan ctermbg=black  guifg=#63b8ff guibg=#000000 gui=none
 
 " Statement: SteelBlue
-hi Conditional    ctermfg=DarkBlue  ctermbg=black  guifg=#4682b4 guibg=#000000 gui=bold
-hi Exception      ctermfg=DarkBlue  ctermbg=black  guifg=#4682b4 guibg=#000000 gui=bold
-hi Keyword        ctermfg=DarkBlue  ctermbg=black  guifg=#4682b4 guibg=#000000 gui=bold
-hi Label          ctermfg=DarkBlue  ctermbg=black  guifg=#4682b4 guibg=#000000 gui=bold
-hi Operator       ctermfg=DarkBlue  ctermbg=black  guifg=#4682b4 guibg=#000000 gui=bold
-hi Repeat         ctermfg=DarkBlue  ctermbg=black  guifg=#4682b4 guibg=#000000 gui=bold
-hi Statement      ctermfg=DarkBlue  ctermbg=black  guifg=#4682b4 guibg=#000000 gui=bold
+hi Conditional    ctermfg=DarkBlue  ctermbg=black  guifg=#4682b4 guibg=#000000 gui=none
+hi Exception      ctermfg=DarkBlue  ctermbg=black  guifg=#4682b4 guibg=#000000 gui=none
+hi Keyword        ctermfg=DarkBlue  ctermbg=black  guifg=#4682b4 guibg=#000000 gui=none
+hi Label          ctermfg=DarkBlue  ctermbg=black  guifg=#4682b4 guibg=#000000 gui=none
+hi Operator       ctermfg=DarkBlue  ctermbg=black  guifg=#4682b4 guibg=#000000 gui=none
+hi Repeat         ctermfg=DarkBlue  ctermbg=black  guifg=#4682b4 guibg=#000000 gui=none
+hi Statement      ctermfg=DarkBlue  ctermbg=black  guifg=#4682b4 guibg=#000000 gui=none
 
 " PreProc: DarkOrchid1
 hi PreProc        ctermfg=DarkGreen ctermbg=black  guifg=#bf3eff guibg=#000000 gui=none
@@ -44,10 +44,10 @@ hi Macro          ctermfg=DarkGreen ctermbg=black  guifg=#bf3eff guibg=#000000 g
 hi PreCondit      ctermfg=DarkGreen ctermbg=black  guifg=#bf3eff guibg=#000000 gui=none
 
 " Type: orchid2
-hi Type           ctermfg=DarkGreen ctermbg=black  guifg=#ee7ae9 guibg=#000000 gui=bold
-hi StorageClass   ctermfg=DarkGreen ctermbg=black  guifg=#ee7ae9 guibg=#000000 gui=bold
-hi Structure      ctermfg=DarkGreen ctermbg=black  guifg=#ee7ae9 guibg=#000000 gui=bold
-hi Typedef        ctermfg=DarkGreen ctermbg=black  guifg=#ee7ae9 guibg=#000000 gui=bold
+hi Type           ctermfg=DarkGreen ctermbg=black  guifg=#ee7ae9 guibg=#000000 gui=none
+hi StorageClass   ctermfg=DarkGreen ctermbg=black  guifg=#ee7ae9 guibg=#000000 gui=none
+hi Structure      ctermfg=DarkGreen ctermbg=black  guifg=#ee7ae9 guibg=#000000 gui=none
+hi Typedef        ctermfg=DarkGreen ctermbg=black  guifg=#ee7ae9 guibg=#000000 gui=none
 
 " Special: cyan2
 hi Special        ctermfg=DarkGray  ctermbg=black  guifg=#00eeee guibg=#000000 gui=none
