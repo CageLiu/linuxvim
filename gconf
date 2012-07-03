@@ -182,12 +182,11 @@ inoremap <a-h> <ESC>ba
 inoremap <a-f> <ESC>:w<cr>a
 inoremap <a-o> <ESC>gkJa
 inoremap <a-m> <ESC>ld$a
-inoremap <a-n> <ESC>ld^i
+inoremap <a-b> <ESC>ld^i
 inoremap <c-k> <C-X><C-K>
 inoremap <c-f> <C-X><C-F>
 inoremap <a-i> <c-y>
 inoremap <a-,> <c-w>
-"inoremap <a-b> <i_CTRL-^>
 
 "实现括号的自动配对后防止重复输入），适用python
 function! ClosePair(char)
@@ -394,5 +393,5 @@ set cuc
 
 
 "vimim插件快捷键调整
-inoremap <silent> <a-b>  <C-R>=g:vimim_onekey()<CR>
-xnoremap <silent> <a-b> y:call g:vimim_visual()<CR>
+inoremap <silent> <a-n>  <C-R>=g:vimim_onekey()<CR>
+xnoremap <silent> <a-n> y:call g:vimim_visual()<CR>
