@@ -19,8 +19,10 @@ set nocompatible
 "让配置文件自动加载
 autocmd! bufwritepost _vimrc source %
 
+
 "配色方案
 color molokai
+"color lucius
 "set guifont=DejaVu\ Sans\ Mono\ 10
 set guifont=文泉驿等宽正黑\ 11
 
@@ -185,6 +187,7 @@ inoremap <c-k> <C-X><C-K>
 inoremap <c-f> <C-X><C-F>
 inoremap <a-i> <c-y>
 inoremap <a-,> <c-w>
+"inoremap <a-b> <i_CTRL-^>
 
 "实现括号的自动配对后防止重复输入），适用python
 function! ClosePair(char)
@@ -383,10 +386,13 @@ nmap <F1> <ESC>
 vmap <F1> <ESC>
 inoremap <F1> <ESC>
 
-
 "set list
 "set listchars=tab:\|\ 
 
-
 "高亮当前列
 set cuc
+
+
+"vimim插件快捷键调整
+inoremap <silent> <a-b>  <C-R>=g:vimim_onekey()<CR>
+xnoremap <silent> <a-b> y:call g:vimim_visual()<CR>
