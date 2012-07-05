@@ -45,7 +45,7 @@ hi DiffText                      guibg=#4C4745 gui=none
 hi Directory       guifg=#2B4988               gui=none
 hi Error           guifg=#960050 guibg=#1E0010
 hi ErrorMsg        guifg=#595CDF guibg=#232526 gui=none
-hi Exception       guifg=#2B4988               gui=none
+hi Exception       guifg=#FF5500               gui=none
 hi Float           guifg=#AE81FF
 hi FoldColumn      guifg=#465457 guibg=#000000
 hi Folded          guifg=#465457 guibg=#000000
@@ -59,7 +59,7 @@ hi Label           guifg=#595CDF               gui=none
 hi Macro           guifg=#C4BE89               gui=none
 hi SpecialKey      guifg=#009F78               gui=none
 
-hi MatchParen      guifg=#000000 guibg=#2B4988 gui=none
+hi MatchParen      guifg=#000000 guibg=#57A000 gui=none
 hi ModeMsg         guifg=#595CDF
 hi MoreMsg         guifg=#595CDF
 hi Operator        guifg=#595CDF
@@ -116,15 +116,18 @@ if s:molokai_original == 1
 else
    hi Normal          guifg=#D3D6DF guibg=#080808
    hi Comment         guifg=#465457
-   "hi CursorLine                    guibg=#181818
+
+   "hi CursorLine                    guibg=#151515
    hi CursorLine                    guibg=#151515
-   "hi CursorColumn                  guibg=#20282A
-   hi CursorColumn                  guibg=#151515
+
+   "hi CursorColumn                  guibg=#151515
+   hi CursorColumn                  guibg=#151A1F
+
    hi LineNr          guifg=#BCBCBC guibg=#151515
    hi NonText         guifg=#BCBCBC guibg=#111111
 end
 
-"
+
 " Support for 256-color terminal
 "
 if &t_Co > 255

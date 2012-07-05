@@ -1,6 +1,10 @@
 let g:netrw_dirhistmax  =10
-let g:netrw_dirhist_cnt =4
+let g:netrw_dirhist_cnt =8
 let g:netrw_dirhist_1='/var/www/tpl/static/youmo/js'
 let g:netrw_dirhist_2='/home/cage/.gvfs/192.168.188.2 上的 htmls/monkey/www/conference_topics'
 let g:netrw_dirhist_3='/home/cage/data/note'
 let g:netrw_dirhist_4='/home/cage/data/note/css'
+let g:netrw_dirhist_5='/var/www/tpl/static/youmo/js'
+let g:netrw_dirhist_6='/home/cage/.gvfs/192.168.188.2 上的 htmls/monkey/www/caifu_global'
+let g:netrw_dirhist_7='/home/cage/.gvfs/192.168.188.2 上的 htmls/caijing/htdocs/static/nantong'
+let g:netrw_dirhist_8='/home/cage/.gvfs/192.168.188.2 上的 htmls/caijing/htdocs/static/nantong/css'
