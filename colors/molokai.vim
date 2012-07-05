@@ -59,7 +59,7 @@ hi Label           guifg=#595CDF               gui=none
 hi Macro           guifg=#C4BE89               gui=none
 hi SpecialKey      guifg=#009F78               gui=none
 
-hi MatchParen      guifg=#000000 guibg=#57A000 gui=none
+hi MatchParen      guifg=#FFFFFF guibg=#57A000 gui=none
 hi ModeMsg         guifg=#595CDF
 hi MoreMsg         guifg=#595CDF
 hi Operator        guifg=#595CDF
