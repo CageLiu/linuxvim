@@ -656,10 +656,10 @@ function! <SID>StartExplorer(sticky, delBufNum)
     
     if !exists("g:did_minibufexplorer_syntax_inits")
       let g:did_minibufexplorer_syntax_inits = 1
-      hi def link MBENormal         Comment
-      hi def link MBEChanged        String
-      hi def link MBEVisibleNormal  Special
-      hi def link MBEVisibleChanged Special
+      hi def link MBENormal         String
+      hi def link MBEChanged        Special
+      hi def link MBEVisibleNormal  Exception
+      hi def link MBEVisibleChanged Exception
     endif
   endif
 
