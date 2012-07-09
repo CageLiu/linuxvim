@@ -1,11 +1,2 @@
 let g:netrw_dirhistmax  =10
-let g:netrw_dirhist_cnt =9
-let g:netrw_dirhist_1='/var/www/demo'
-let g:netrw_dirhist_2='/home/cage/data/note/python'
-let g:netrw_dirhist_3='/home/cage/.gvfs/192.168.188.2 上的 htmls/monkey/www/caifu_global'
-let g:netrw_dirhist_4='/home/cage/data/python/20120101'
-let g:netrw_dirhist_5='/home/cage/data'
-let g:netrw_dirhist_6='/home/cage/data/.U盘'
-let g:netrw_dirhist_7='/var/www'
-let g:netrw_dirhist_8='/var/www/8cuo'
-let g:netrw_dirhist_9='/var/www/8cuo/20120228'
+let g:netrw_dirhist_cnt =0

@@ -97,7 +97,7 @@ syntax enable
 syntax on
 
 "设置tags
-set tags=tags;
+set tags=tags
 
 "自动切换目录到当前文件所在的目录
 set autochdir
@@ -231,9 +231,11 @@ nmap <a-b> dF
 nmap <a-f> F
 nmap <a-8> *
 nmap <a-5> %
-nmap <a-t> V\5
-nmap <a-o> \5
+nmap <a-t> $V\5
+nmap <a-o> $\5
 nmap <tab> <s-c-tab>
+
+nmap <a-;> <a-t>y<a-o>p
 
 "重复find操作
 nmap , ;
@@ -248,7 +250,8 @@ vmap <a-b> \cm
 vmap <a-n> ^
 vmap <a-m> $
 vmap <a-g> G
-vmap <a-o> \5
+vmap <a-o> $\5
+vmap <a-t> $\5
 
 "块级插入时有用
 vmap <a-q> I
