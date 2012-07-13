@@ -17,7 +17,7 @@ set ambiwidth=double
 set nocompatible
 
 "让配置文件自动加载
-autocmd! bufwritepost _vimrc source %
+autocmd! bufwritepost .gvimrc source %
 
 
 "配色方案
@@ -393,7 +393,6 @@ inoremap <F1> <ESC>
 
 "高亮当前列
 set cuc
-
 
 "vimim插件快捷键调整
 inoremap <silent> <a-n>  <C-R>=g:vimim_onekey()<CR>
