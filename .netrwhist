@@ -1,7 +1,10 @@
 let g:netrw_dirhistmax  =10
-let g:netrw_dirhist_cnt =5
-let g:netrw_dirhist_1='/var/www/tpl/static/monkey'
-let g:netrw_dirhist_2='/var/www/tpl/static'
-let g:netrw_dirhist_3='/var/www/tpl/static/qdpedia'
-let g:netrw_dirhist_4='/var/www/tpl/static/qdpedia/js'
-let g:netrw_dirhist_5='/home/cage/.gvfs/192.168.188.2 上的 htmls/monkey/www/caifuzhongguo'
+let g:netrw_dirhist_cnt =8
+let g:netrw_dirhist_1='/var/www/cobra/templates'
+let g:netrw_dirhist_2='/var/www/cobra/templates/www'
+let g:netrw_dirhist_3='/var/www/cobra/templates/www/system'
+let g:netrw_dirhist_4='/home/cage/data/note/web_server'
+let g:netrw_dirhist_5='/home/cage/data/note/web_server/nginx配置文件'
+let g:netrw_dirhist_6='/home/cage/data/note/web_server/nginx配置文件/|etc|nginx'
+let g:netrw_dirhist_7='/var/www/cobra'
+let g:netrw_dirhist_8='/var/www/php_dir/dtree'

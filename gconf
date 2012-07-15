@@ -236,6 +236,7 @@ nmap <a-o> $\5
 nmap <tab> <s-c-tab>
 
 nmap <a-;> <a-t>y<a-o>p
+vmap <a-;> yP
 
 "重复find操作
 nmap , ;
