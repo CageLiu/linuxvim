@@ -656,7 +656,7 @@ function! <SID>StartExplorer(sticky, delBufNum)
     
     if !exists("g:did_minibufexplorer_syntax_inits")
       let g:did_minibufexplorer_syntax_inits = 1
-      hi def link MBENormal         String
+      hi def link MBENormal         WildMenu
       hi def link MBEChanged        Special
       hi def link MBEVisibleNormal  Exception
       hi def link MBEVisibleChanged Exception
@@ -1803,7 +1803,7 @@ endfunc " }}}
 "                       opened again unless you do a \mbe (or restart VIM).
 "                     o Removed spaces between "tabs" (even more mini :)
 "                     o Simplified MBE tab processing 
-"               6.0.6 o Fixed register overwrite bug found by Sébastien Pierre
+"               6.0.6 o Fixed register overwrite bug found by Sé–Žastien Pierre
 "               6.0.5 o Fixed an issue with window sizing when we run out of 
 "                       buffers.  
 "                     o Fixed some weird commenting bugs.  
