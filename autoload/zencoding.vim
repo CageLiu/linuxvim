@@ -1144,7 +1144,7 @@ let s:zen_settings = {
 \                    ."</html>"
 \        },
 \        'default_attributes': {
-\            'a': {'href': ''},
+\            'a': {'href': '#'},
 \            'a:link': {'href': 'http://|'},
 \            'a:mail': {'href': 'mailto:|'},
 \            'abbr': {'title': ''},
