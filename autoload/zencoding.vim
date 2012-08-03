@@ -1283,8 +1283,8 @@ let s:zen_settings = {
 \            'optgroup': 'optgroup>option',
 \            'optg': 'optgroup>option'
 \        },
-\        'empty_elements': 'area,base,basefont,br,col,frame,hr,img,input,isindex,link,meta,param,embed,keygen,command',
-\        'block_elements': 'address,applet,blockquote,button,center,dd,del,dir,div,dl,dt,fieldset,form,frameset,hr,iframe,ins,isindex,li,link,map,menu,noframes,noscript,object,ol,p,pre,script,table,tbody,td,tfoot,th,thead,tr,ul,h1,h2,h3,h4,h5,h6,style,a,span',
+\        'empty_elements': 'area,base,basefont,br,frame,hr,img,input,isindex,link,meta,param,embed,keygen,command,col',
+\        'block_elements': 'address,applet,blockquote,button,center,dd,del,dir,div,dl,dt,fieldset,form,frameset,hr,iframe,ins,isindex,li,link,map,menu,noframes,noscript,object,ol,p,pre,script,table,tbody,td,tfoot,th,thead,tr,ul,h1,h2,h3,h4,h5,h6,style,a,span,col',
 \        'inline_elements': 'abbr,acronym,applet,b,basefont,bdo,big,br,button,cite,code,del,dfn,em,font,i,iframe,img,input,ins,kbd,label,map,object,q,s,samp,script,small,strike,strong,sub,sup,textarea,tt,u,var',
 \    },
 \    'xsl': {
