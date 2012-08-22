@@ -1,2 +1,9 @@
 let g:netrw_dirhistmax  =10
-let g:netrw_dirhist_cnt =0
+let g:netrw_dirhist_cnt =7
+let g:netrw_dirhist_1='/home/cage/.gvfs/192.168.188.2 上的 liufeng/www/city/static/t6/css'
+let g:netrw_dirhist_2='/home/cage/.gvfs/192.168.188.2 上的 liufeng/www/city/static/t6'
+let g:netrw_dirhist_3='/home/cage/.gvfs/192.168.188.2 上的 liufeng/www/city/static'
+let g:netrw_dirhist_4='/home/cage/.gvfs/192.168.188.2 上的 liufeng/www/city/static/css'
+let g:netrw_dirhist_5='/home/cage/.gvfs/192.168.188.2 上的 liufeng/www/nantong/static'
+let g:netrw_dirhist_6='/home/cage/.gvfs/192.168.188.2 上的 liufeng/www/nantong/static/nantong'
+let g:netrw_dirhist_7='/home/cage/.gvfs/192.168.188.2 上的 liufeng/www/nantong/static/nantong/css'

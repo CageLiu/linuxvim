@@ -114,7 +114,7 @@ let Tlist_Process_File_Always=1
 
 "文件目录窗口
 let g:winManagerWindowLayout='FileExplorer|TagList'
-nmap wm :WMToggle<cr>
+nmap <F6> :WMToggle<cr>
 let g:AutoOpenWinManager=1
 
 "多文件编辑
