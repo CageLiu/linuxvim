@@ -137,6 +137,11 @@ inoremap ' ''<ESC>i
 inoremap <c-k> <C-X><C-K>
 inoremap <c-f> <C-X><C-F>
 
+inoremap <c-a> <left>
+inoremap <c-i> <right>
+
+
+
 "实现括号的自动配对后防止重复输入），适用python
 function! ClosePair(char)
     if getline('.')[col('.') - 1] == a:char
@@ -156,6 +161,12 @@ set statusline=\ %<%F[%1*%M%*%n%R%H]%=\ %y\ %0(%{&fileformat}\ %{&encoding}\ %c:
 nmap j gj
 nmap k gk
 nmap <tab> <s-c-tab>
+
+nmap <c-up> <c-w>+5<c-w>+5<ESC>
+nmap <c-up> <c-w>-5<c-w>-5<ESC>
+nmap <c-left> <c-w>>5<c-w>>5<ESC>
+nmap <c-right> <c-w><5<c-w><5<ESC>
+nmap <c-\> <c-w>>2000<c-w>>2000<ESC>
 
 "重复find操作
 nmap , ;
@@ -225,3 +236,23 @@ function! InsertHtmlTag()
         :call cursor(save_cursor[1], save_cursor[2], save_cursor[3])
 endfunction
 		inoremap > <ESC>:call InsertHtmlTag()<CR>a
+
+
+"zencoding 快捷键
+let g:user_zen_settings = { 
+  \  'indentation' : '  ', 
+  \  'perl' : { 
+  \    'aliases' : { 
+  \      'req' : 'require ' 
+  \    }, 
+  \    'snippets' : { 
+  \      'use' : "use strict\nuse warnings\n\n", 
+  \      'warn' : "warn \"|\";", 
+  \    } 
+  \  } 
+  \} 
+  let g:user_zen_expandabbr_key = '<c-e>'
+  let g:use_zen_complete_tag = 1
+""nmap <a-.> <c-y>,
+""vmap <a-.> <c-y>,
+""inoremap <a-.> <c-y>,
