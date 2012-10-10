@@ -163,10 +163,13 @@ nmap k gk
 nmap <tab> <s-c-tab>
 
 nmap <c-up> <c-w>+5<c-w>+5<ESC>
-nmap <c-up> <c-w>-5<c-w>-5<ESC>
+nmap <c-down> <c-w>-5<c-w>-5<ESC>
 nmap <c-left> <c-w>>5<c-w>>5<ESC>
 nmap <c-right> <c-w><5<c-w><5<ESC>
 nmap <c-\> <c-w>>2000<c-w>>2000<ESC>
+
+inoremap <tab> <tab>
+			
 
 "重复find操作
 nmap , ;
