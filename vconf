@@ -138,9 +138,8 @@ inoremap <c-k> <C-X><C-K>
 inoremap <c-f> <C-X><C-F>
 
 inoremap <c-a> <left>
-inoremap <c-i> <right>
-
-
+inoremap <c-d> <right>
+inoremap <tab> <tab>
 
 "实现括号的自动配对后防止重复输入），适用python
 function! ClosePair(char)
@@ -168,7 +167,6 @@ nmap <c-left> <c-w>>5<c-w>>5<ESC>
 nmap <c-right> <c-w><5<c-w><5<ESC>
 nmap <c-\> <c-w>>2000<c-w>>2000<ESC>
 
-inoremap <tab> <tab>
 			
 
 "重复find操作
