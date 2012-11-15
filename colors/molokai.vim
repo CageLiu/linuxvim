@@ -26,7 +26,6 @@ else
     let s:molokai_original = 0
 endif
 
-
 hi Boolean         guifg=#AE81FF
 hi Character       guifg=#595CDF
 hi Number          guifg=#AE81FF
@@ -129,12 +128,11 @@ end
 
 
 " Support for 256-color terminal
-"
 if &t_Co > 255
    hi Boolean         ctermfg=135
    hi Character       ctermfg=144
    hi Number          ctermfg=135
-   hi String          ctermfg=144
+   hi String          ctermfg=12
    hi Conditional     ctermfg=161               cterm=none
    hi Constant        ctermfg=135               cterm=none
    hi Cursor          ctermfg=16  ctermbg=253
@@ -160,7 +158,7 @@ if &t_Co > 255
    hi IncSearch       ctermfg=193 ctermbg=16
 
    hi Keyword         ctermfg=161               cterm=none
-   hi Label           ctermfg=229               cterm=none
+   hi Label           ctermfg=23               cterm=none
    hi Macro           ctermfg=193
    hi SpecialKey      ctermfg=81
 
@@ -170,22 +168,22 @@ if &t_Co > 255
    hi Operator        ctermfg=161
 
    " complete menu
-   hi Pmenu           ctermfg=81  ctermbg=16
-   hi PmenuSel                    ctermbg=244
-   hi PmenuSbar                   ctermbg=232
-   hi PmenuThumb      ctermfg=81
+   hi Pmenu           ctermfg=231  ctermbg=16
+   hi PmenuSel        ctermfg=231  ctermbg=27
+   hi PmenuSbar                    ctermbg=27
+   hi PmenuThumb      ctermfg=123
 
    hi PreCondit       ctermfg=118               cterm=none
-   hi PreProc         ctermfg=118
+   hi PreProc         ctermfg=23
    hi Question        ctermfg=81
    hi Repeat          ctermfg=161               cterm=none
-   hi Search          ctermfg=253 ctermbg=66
+   hi Search          ctermfg=231 ctermbg=1
 
    " marks column
    hi SignColumn      ctermfg=118 ctermbg=235
    hi SpecialChar     ctermfg=161               cterm=none
    hi SpecialComment  ctermfg=245               cterm=none
-   hi Special         ctermfg=81  ctermbg=232
+   hi Special         ctermfg=131 ctermbg=232
    hi SpecialKey      ctermfg=245
 
    hi Statement       ctermfg=161               cterm=none
@@ -197,20 +195,20 @@ if &t_Co > 255
    hi Title           ctermfg=166
    hi Todo            ctermfg=231 ctermbg=232   cterm=none
 
-   hi Typedef         ctermfg=81
-   hi Type            ctermfg=81                cterm=none
-   hi Underlined      ctermfg=244               cterm=underline
+   hi Typedef         ctermfg=131
+   hi Type            ctermfg=131               cterm=none
+   hi Underlined      ctermfg=244               cterm=none
 
    hi VertSplit       ctermfg=244 ctermbg=232   cterm=none
    hi VisualNOS                   ctermbg=238
    hi Visual                      ctermbg=235
    hi WarningMsg      ctermfg=231 ctermbg=238   cterm=none
-   hi WildMenu        ctermfg=81  ctermbg=16
+   hi WildMenu        ctermfg=239 ctermbg=16
 
-   hi Normal          ctermfg=252 ctermbg=233
-   hi Comment         ctermfg=59
-   hi CursorLine                  ctermbg=234   cterm=none
-   hi CursorColumn                ctermbg=234
-   hi LineNr          ctermfg=250 ctermbg=234
+   hi Normal          ctermfg=60  ctermbg=16	cterm=none
+   hi Comment         ctermfg=236				
+   hi CursorLine       			  ctermbg=232   cterm=none
+   hi CursorColumn                ctermbg=232
+   hi LineNr          ctermfg=231 ctermbg=233
    hi NonText         ctermfg=250 ctermbg=234
 end
